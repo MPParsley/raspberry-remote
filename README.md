@@ -21,6 +21,7 @@ http://power-switch.eu/download/
 * Checkout this project
 * Compile it
 * Connect pin11 of the raspberry to the transmitter
+* Edit the location of the daemon in the init script (raspberry-remote-powerswitch) and copy it to /etc/init.d
 
 ## Usage
 Configure PowerSwitch with the IP of the Raspberry and the outlets you want to control
