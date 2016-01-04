@@ -20,7 +20,7 @@ http://power-switch.eu/download/
 * Install wiringPi. See https://projects.drogon.net/raspberry-pi/wiringpi/
 * Checkout this project
 * Compile it
-* Connect pin11 of the raspberry to the transmitter
+* Connect physical pin7 (BCM GPIO4 or wiringPi GPIO7) of the raspberry to the transmitter
 * Edit the location of the daemon in the init script (raspberry-remote-powerswitch)
 * Copy it to /etc/init.d: sudo cp raspberry-remote-powerswitch /etc/init.d
 * Make it start on boot: sudo update-rc.d raspberry-remote-powerswitch defaults
