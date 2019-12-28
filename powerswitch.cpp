@@ -15,7 +15,7 @@ int main(void) {
   mySwitch = RCSwitch();
   mySwitch.setPulseLength(300);
   usleep(50000);
-  mySwitch.enableTransmit(7);
+  mySwitch.enableTransmit(0);
 
   struct sockaddr_in si_server, si_client;
 
