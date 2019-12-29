@@ -21,5 +21,5 @@ fi
 # Author: MPParsley <MPParsley@users.noreply.github.com>
 
 DESC="Raspberry remote service"
-DAEMON=/home/osmc/Apps/raspberry-remote-powerswitch/daemon.sh
+DAEMON=/usr/src/raspberry-remote-powerswitch/daemon.sh
 PIDFILE=/var/run/raspberry-remote-powerswitch
